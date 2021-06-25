@@ -1,0 +1,19 @@
+1) Diferencia entres enterfaz y clase abstractoa
+
+Una clase abstracta puede proporcionar la implementación de una interfaz. Una interfaz no puede proporcionar la implementación de una clase abstracta
+
+
+2) Diferencia entres enlacesedList y ArrayList
+
+Un ArrayList es una matriz de tamaño variable que crece a medida que se agregan elementos adicionales. 
+Un LinkedList es una implementación de lista / cola doblemente enlazada
+
+3) Cómo funciona el recolector de basura
+
+es un programa que administra la memoria automáticamente, en donde la desasignación de objetos es manejada por Java en lugar del programador
+
+4) Escribe la función de Prisionero de guerra sin usar multiplicación/ división ni las funciones de las mismas
+
+La función Math.pow() retorna la base elevada al exponente, es decir, base exponente. La base y el exponente estan en el sistema numérico decimal.
+
+Puesto que pow() es un método estático de Math, siempre se utiliza como Math.pow(). Si la base es negativa y el exponente no es un número entero, el resultado será NaN.

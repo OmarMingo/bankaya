@@ -1,0 +1,24 @@
+erver:
+  port: 8080
+spring:
+  application:
+    name: pokemon
+  datasource:
+    tomcat:
+      url: jdbc:postgresql://localhost:5432/pokemon
+      username: root
+      password: toor
+      driver-class-name: org.postgresql.Driver
+      test-on-borrow: true
+      validation-query: SELECT 1
+      validation-interval: 10000
+      time-between-eviction-runs-millis: 10000
+      test-while-idle: true
+      remove-abandoned: true
+      remove-abandoned-timeout: 30
+      initial-size: 1
+      max-active: 3
+      max-idle: 2
+      min-idle: 1
+pokemon:
+  url: https://pokeapi.co/api/v2/
